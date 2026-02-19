@@ -37,4 +37,5 @@ while week <= 4:
     week += 1 
 
 print("-" * 40)
+
 print(f"[RESULT] Final Size: {waist:.2f}\" | Total Loss: {initial_waist - waist:.2f}\"")
