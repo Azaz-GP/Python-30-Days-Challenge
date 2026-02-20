@@ -1,2 +1,33 @@
-# Python-30-Days-Challenge
-30-Day Python Intensive Challenge | Moving from C++ logic to Python automation and data structures while starting BSCS at Minhaj University.
+# 🐍 30-Day Python Coding Challenge
+
+Welcome to my repository! I am documenting my journey from absolute beginner to Python developer over the next 30 days. This challenge is about building "The Base" of my technical skills through daily practice and consistency.Moving from C++ logic to Python automation and data structures while starting BSCS at Minhaj University.
+
+## 📊 Progress Dashboard
+
+| Day | Project Name | Core Concepts Covered |
+| :--- | :--- | :--- |
+| 01 | [Health Tracker Forecast](#day-1-health-tracker-forecast) | Input Validation, `while` loops, Conditionals |
+| 02 | [Number Analyzer Tool](#day-2-number-analyzer-tool) | `for` loops, Nested Loops, Prime Logic, Factorials |
+
+---
+
+## 🚀 Daily Breakdown
+
+### Day 1: Health Tracker Forecast
+A forecasting tool designed to predict physical transformation (waist circumference) over a 4-week period based on user-inputted activity levels.
+* **The Logic:** Uses conditional branching to determine "Intensity Status" (Extreme, Steady, or Minimal).
+* **Key Technical Win:** Implemented robust **Input Validation** using `while True` loops to ensure user data stays within realistic bounds.
+
+### Day 2: Number Analyzer Tool
+A comprehensive mathematical utility that decomposes a number into its various properties.
+* **The Logic:** This script processes an integer $N$ to find:
+    * **Summation:** Calculated using iterative addition.
+    * **Parity:** Precise counts of Even and Odd numbers using the modulo operator `%`.
+    * **Factorials:** Calculating $n!$ through iterative multiplication.
+    * **Prime Detection:** A complex implementation using **nested loops** and the Pythonic `for-else` block to identify prime numbers.
+* **Key Technical Win:** Transitioning from simple `while` loops to complex `for` loop iterations and pattern generation.
+
+
+
+---
+
