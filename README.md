@@ -39,3 +39,13 @@ A data processing utility designed to manage classroom performance by analyzing 
 
 ---
 
+### 💰 Day 4: Personal Finance Tracker
+A functional finance management tool designed to track cash flow through categorized income and expense logging.
+
+*   **The Logic:** This application utilizes a modular function-based architecture:
+    *   **Global State Management:** Tracks `income`, `expenses`, and `balance` dynamically across different function scopes.
+    *   **Tuple Storage:** Uses a list of tuples `(category, amount)` to store and retrieve complex expense data.
+    *   **Interactive Menu:** Implements a `while True` loop with conditional branching to create a persistent user interface.
+    *   **Data Visualization:** A summary module that provides a real-time snapshot of financial health.
+
+*   **Key Technical Win:** Transitioning to **Functional Programming**. By breaking the code into specific functions like `add_income()` and `show_summary()`, the code is much easier to read, debug, and scale.
