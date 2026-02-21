@@ -4,10 +4,13 @@ Welcome to my repository! I am documenting my journey from absolute beginner to 
 
 ## 📊 Progress Dashboard
 
+
 | Day | Project Name | Core Concepts Covered |
 | :--- | :--- | :--- |
-| 01 | [Health Tracker Forecast](#day-1-health-tracker-forecast) | Input Validation, `while` loops, Conditionals |
-| 02 | [Number Analyzer Tool](#day-2-number-analyzer-tool) | `for` loops, Nested Loops, Prime Logic, Factorials |
+| 01 | [Health Tracker Forecast](#day-1-health-tracker-forecast) | Input Validation, while loops, Conditionals |
+| 02 | [Number Analyzer Tool](#day-2-number-analyzer-tool) | for loops, Nested Loops, Prime Logic, Factorials |
+| 03 | [Student Marks Analyzer](#day-3-student-marks-analyzer) | List Manipulation, append(), Max/Min Functions |
+| 04 | [Personal Finance Tracker](#day-4-personal-finance-tracker) | Functional Programming, Global Scope, Tuples, Menu Logic |
 
 ---
 
