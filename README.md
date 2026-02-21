@@ -26,8 +26,16 @@ A comprehensive mathematical utility that decomposes a number into its various p
     * **Factorials:** Calculating $n!$ through iterative multiplication.
     * **Prime Detection:** A complex implementation using **nested loops** and the Pythonic `for-else` block to identify prime numbers.
 * **Key Technical Win:** Transitioning from simple `while` loops to complex `for` loop iterations and pattern generation.
+### 📊 Day 3: Student Marks Analyzer
+A data processing utility designed to manage classroom performance by analyzing scores and generating detailed grade distributions.
 
+*   **The Logic:** This script manages a dynamic list of student records to provide:
+    *   **Statistical Analysis:** Instant calculation of the **Highest** and **Lowest** marks using built-in functions.
+    *   **Grade Classification:** A conditional grading engine that maps scores to letter grades (A-F) based on specific thresholds.
+    *   **Outcome Tracking:** Simultaneous counting of **Passing** vs. **Failing** students for an immediate success-rate overview.
+    *   **Tabular Output:** A formatted display that iterates through paired data to show a clear `Marks || Grade` breakdown.
 
+*   **Key Technical Win:** Mastering **List Manipulation** and the `.append()` method to store and retrieve user-generated data dynamically, moving beyond static variable storage.
 
 ---
 
