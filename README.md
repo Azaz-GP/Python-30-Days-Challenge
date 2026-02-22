@@ -51,3 +51,14 @@ A functional finance management tool designed to track cash flow through categor
     *   **Data Visualization:** A summary module that provides a real-time snapshot of financial health.
 
 *   **Key Technical Win:** Transitioning to **Functional Programming**. By breaking the code into specific functions like `add_income()` and `show_summary()`, the code is much easier to read, debug, and scale.
+
+### 🎓 Day 5: Student Record Manager (Dictionary Edition)
+A database-style utility that manages student profiles using unique keys for efficient data retrieval and modification.
+
+*   **The Logic:** Transitioned from index-based lists to **Key-Value Pairs** (Dictionaries):
+    *   **CRUD Operations:** Implemented Create, Read, Update, and Delete functionality within a modular architecture.
+    *   **Search Optimization:** Direct access to student records via name-based keys.
+    *   **Aggregation Logic:** A custom algorithm to traverse the dictionary and identify the "Topper" based on the highest value.
+    *   **Data Integrity:** Included checks to handle empty records and invalid student lookups.
+
+*   **Key Technical Win:** Mastering **Dictionary Iteration**. Using `.items()` to handle paired data allowed for more sophisticated logic than basic lists, marking a shift toward real-world database concepts.
