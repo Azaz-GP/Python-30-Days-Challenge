@@ -50,15 +50,46 @@ A functional finance management tool designed to track cash flow through categor
     *   **Interactive Menu:** Implements a `while True` loop with conditional branching to create a persistent user interface.
     *   **Data Visualization:** A summary module that provides a real-time snapshot of financial health.
 
-*   **Key Technical Win:** Transitioning to **Functional Programming**. By breaking the code into specific functions like `add_income()` and `show_summary()`, the code is much easier to read, debug, and scale.
+*   **Key Technical Win:** Transitioning to **Functional Programming**. By breaking the code into specific functions like `a# 🐍 30-Day Python Coding Challenge
 
-### 🎓 Day 5: Student Record Manager (Dictionary Edition)
-A database-style utility that manages student profiles using unique keys for efficient data retrieval and modification.
+Welcome to my repository! I am documenting my journey from absolute beginner to Python developer over the next 30 days. This challenge is about building "The Base" of my technical skills through daily practice and consistency. Moving from C++ logic to Python automation and data structures while starting BSCS at Minhaj University.
 
-*   **The Logic:** Transitioned from index-based lists to **Key-Value Pairs** (Dictionaries):
-    *   **CRUD Operations:** Implemented Create, Read, Update, and Delete functionality within a modular architecture.
-    *   **Search Optimization:** Direct access to student records via name-based keys.
-    *   **Aggregation Logic:** A custom algorithm to traverse the dictionary and identify the "Topper" based on the highest value.
-    *   **Data Integrity:** Included checks to handle empty records and invalid student lookups.
+## 📊 Progress Dashboard
 
-*   **Key Technical Win:** Mastering **Dictionary Iteration**. Using `.items()` to handle paired data allowed for more sophisticated logic than basic lists, marking a shift toward real-world database concepts.
+
+| Day | Project Name | Core Concepts Covered |
+| :--- | :--- | :--- |
+| 01 | [Health Tracker Forecast](#day-1-health-tracker-forecast) | Input Validation, while loops, Conditionals |
+| 02 | [Number Analyzer Tool](#day-2-number-analyzer-tool) | for loops, Nested Loops, Prime Logic, Factorials |
+| 03 | [Student Marks Analyzer](#-day-3-student-marks-analyzer) | List Manipulation, append(), Max/Min Functions |
+| 04 | [Personal Finance Tracker](#-day-4-personal-finance-tracker) | Functional Programming, Global Scope, Tuples |
+| 05 | [Student Record Manager](#-day-5-student-record-manager) | Dictionary CRUD, Key-Value Pairs, Membership Operators |
+
+## 🚀 Daily Breakdown
+
+### Day 1: Health Tracker Forecast
+A forecasting tool designed to predict physical transformation based on user activity.
+* **Key Technical Win:** Implemented robust **Input Validation** using `while True` loops.
+
+### Day 2: Number Analyzer Tool
+A mathematical utility for Summation, Parity, Factorials, and Prime Detection.
+* **Key Technical Win:** Transitioning to complex **for-else** blocks for prime identification.
+
+### 📊 Day 3: Student Marks Analyzer
+A data processing utility for classroom performance using lists.
+* **Key Technical Win:** Mastering **List Manipulation** and the `.append()` method.
+
+### 💰 Day 4: Personal Finance Tracker
+A functional tool for tracking cash flow through modular income/expense logging.
+* **Key Technical Win:** Transitioning to **Functional Programming** to make code modular and scalable.
+
+---
+
+### 🎓 Day 5: Student Record Manager
+A full-featured management system that performs CRUD (Create, Read, Update, Delete) operations on student data.
+
+* **The Logic:** This script moves away from indexed lists to **Dictionary-based storage**:
+    * **Key-Value Mapping:** Uses student names as unique keys to store their marks, allowing for $O(1)$ average time complexity for lookups.
+    * **CRUD Operations:** Includes specialized functions to `add()`, `display()`, `update_marks()`, and `del_student()`.
+    * **Topper Search:** Iterates through `student_dic.items()` to find the maximum value and its associated key.
+* **Key Technical Win:** Mastering **Dictionaries** and the `del` keyword. I also implemented **Membership Testing** (`if key in student_dic`) to prevent errors when trying to delete non-existent records.dd_income()` and `show_summary()`, the code is much easier to read, debug, and scale.
