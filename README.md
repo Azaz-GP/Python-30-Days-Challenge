@@ -21,7 +21,7 @@ This challenge documents my journey from beginner to building structured, real-w
 | 05 | [Student Record Manager](#day-5--student-record-manager) | Dictionaries, CRUD Operations |
 | 06 | [Unique Visitor Tracker](#day-6--unique-visitor-tracker) | Sets, Union, Intersection |
 | 07 | [Personal Notes Saver](#day-7--personal-notes-saver) | File I/O, Error Handling, Context Managers |
-
+| 08 | [Expense Manager (Modular)](#day-8--expense-manager-modular) | Modules, Imports, Input Validation, Multi-file Structure |
 ---
 
 ## 📂 Repository Structure
@@ -172,6 +172,31 @@ Developed understanding of:
 - File I/O operations  
 - Exception handling  
 - Safe file management practices  
+
+---
+
+---
+
+## Day 8 — Expense Manager (Modular)
+
+A modular expense management system built using multiple Python files and imports.
+
+### 🔹 Features
+
+- Modular multi-file architecture
+- Separate modules for income, expenses, storage, and summary
+- Safe input handling using `try-except`
+- Strong menu validation
+- Reusable function-based design
+
+### 🧠 Key Learning
+
+Learned professional Python project structure using:
+
+- Modules and imports
+- Code separation and organization
+- Input validation best practices
+- Writing maintainable and scalable programs
 
 ---
 
