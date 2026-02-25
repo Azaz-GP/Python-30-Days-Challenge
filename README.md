@@ -22,6 +22,7 @@ This challenge documents my journey from beginner to building structured, real-w
 | 06 | [Unique Visitor Tracker](#day-6--unique-visitor-tracker) | Sets, Union, Intersection |
 | 07 | [Personal Notes Saver](#day-7--personal-notes-saver) | File I/O, Error Handling, Context Managers |
 | 08 | [Expense Manager (Modular)](#day-8--expense-manager-modular) | Modules, Imports, Input Validation, Multi-file Structure |
+| 09 | [Shopping List Manager](#day-9--shopping-list-manager) | File Handling, CRUD Operations, Menu Logic, Input Validation |
 ---
 
 ## 📂 Repository Structure
@@ -35,6 +36,15 @@ This challenge documents my journey from beginner to building structured, real-w
     ├── Day-05-Student-Manager/
     ├── Day-06-Visitor-Tracker/
     ├── Day-07-Notes-Saver/
+    ├── day8_expense_manager/
+    |    ├── main.py
+    |    ├── income.py
+    |    ├── expenses.py
+    |    ├── storage.py
+    |    |── summary.py
+    ├── Day_9_Shopping_list_manager/
+    |   ├── main.py
+    |   |── shop.txt
     │
     └── README.md
 
@@ -198,6 +208,32 @@ Learned professional Python project structure using:
 - Input validation best practices
 - Writing maintainable and scalable programs
 
+---
+---
+
+## Day 9 — Shopping List Manager
+
+A text-file based shopping list application implementing full CRUD functionality.
+
+### 🔹 Features
+
+- Add items with quantity
+- View all stored items
+- Remove selected items
+- Update existing entries
+- Persistent storage using `shop.txt`
+- Input validation and error handling
+- Menu-driven interface
+
+### 🧠 Key Learning
+
+Strengthened understanding of:
+
+- File reading and writing modes (`r`, `w`, `a`)
+- CRUD operations (Create, Read, Update, Delete)
+- Data parsing using string splitting
+- Safe user input handling with `try-except`
+- Structured program flow using main menu loops
 ---
 
 # 🏁 Final Target (Day 30)
