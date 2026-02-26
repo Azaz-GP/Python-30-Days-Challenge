@@ -23,6 +23,7 @@ This challenge documents my journey from beginner to building structured, real-w
 | 07 | [Personal Notes Saver](#day-7--personal-notes-saver) | File I/O, Error Handling, Context Managers |
 | 08 | [Expense Manager (Modular)](#day-8--expense-manager-modular) | Modules, Imports, Input Validation, Multi-file Structure |
 | 09 | [Shopping List Manager](#day-9--shopping-list-manager) | File Handling, CRUD Operations, Menu Logic, Input Validation |
+| 10 | [Student Marks Analyzer (JSON)](#day-10--student-marks-analyzer-json) | JSON Handling, File I/O, CRUD, Input Validation, Pass/Fail Logic |
 ---
 
 ## 📂 Repository Structure
@@ -46,7 +47,11 @@ This challenge documents my journey from beginner to building structured, real-w
     |   ├── main.py
     |   |── shop.txt
     │
-    └── README.md
+    |
+    ├── Day_10_Student-Mark-Analyzer/
+    |    ├── student_mark_analyszer.py
+    |    |── main.py
+    |── README.md
 
 ---
 
@@ -224,6 +229,31 @@ A text-file based shopping list application implementing full CRUD functionality
 - Persistent storage using `shop.txt`
 - Input validation and error handling
 - Menu-driven interface
+
+---
+
+## Day 10 — Student Marks Analyzer (JSON)
+
+A student marks management system using JSON for persistent storage and pass/fail evaluation.
+
+### 🔹 Features
+
+- Add new student records (roll no & marks)
+- View all student data with pass/fail status
+- Persistent storage using `marks.json`
+- Input validation and error handling
+- Menu-driven interface with safe choice selection
+
+### 🧠 Key Learning
+
+Gained hands-on experience with:
+
+- JSON file reading and writing using `json` module
+- CRUD operations with structured data
+- Input validation using `try-except`
+- Dynamic data display with formatted output
+- Pass/fail logic implementation
+---
 
 ### 🧠 Key Learning
 
