@@ -24,6 +24,7 @@ This challenge documents my journey from beginner to building structured, real-w
 | 08 | [Expense Manager (Modular)](#day-8--expense-manager-modular) | Modules, Imports, Input Validation, Multi-file Structure |
 | 09 | [Shopping List Manager](#day-9--shopping-list-manager) | File Handling, CRUD Operations, Menu Logic, Input Validation |
 | 10 | [Student Marks Analyzer (JSON)](#day-10--student-marks-analyzer-json) | JSON Handling, File I/O, CRUD, Input Validation, Pass/Fail Logic |
+| 11 | [Password Manager (JSON)](#day-11--password-manager-json) | JSON Storage, Modular Programming, CRUD Operations, Search Functionality |
 ---
 
 ## 📂 Repository Structure
@@ -51,6 +52,11 @@ This challenge documents my journey from beginner to building structured, real-w
     ├── Day_10_Student-Mark-Analyzer/
     |    ├── student_mark_analyszer.py
     |    |── main.py
+    ├── Day_11_Password_Manager(JSON)/
+    │   ├── main.py
+    │   ├── manager.py
+    │   ├── database.py
+    │   └── Password.json
     |── README.md
 
 ---
@@ -264,6 +270,33 @@ Strengthened understanding of:
 - Data parsing using string splitting
 - Safe user input handling with `try-except`
 - Structured program flow using main menu loops
+
+---
+
+## Day 11 — Password Manager (JSON)
+
+A modular password management system that securely stores and manages account credentials using JSON.
+
+### 🔹 Features
+
+- Add new account credentials
+- View all saved accounts
+- Search accounts by website name
+- Update existing account details
+- Delete saved accounts
+- Persistent storage using JSON file
+- Modular multi-file architecture
+
+### 🧠 Key Learning
+
+Learned advanced Python project structuring including:
+
+- Modular programming using multiple files
+- JSON-based persistent data storage
+- Full CRUD operations implementation
+- Search functionality with string matching
+- Separation of concerns (database, logic, interface)
+- Professional menu-driven program design
 ---
 
 # 🏁 Final Target (Day 30)
