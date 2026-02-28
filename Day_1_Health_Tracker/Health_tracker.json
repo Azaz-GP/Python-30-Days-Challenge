@@ -1,0 +1,14 @@
+[
+    {
+        "month": "Januaray",
+        "waist": 35.0,
+        "workout": 5,
+        "steps": 30000
+    },
+    {
+        "month": "Feburary",
+        "waist": 34.0,
+        "workout": 6,
+        "steps": 2000
+    }
+]
