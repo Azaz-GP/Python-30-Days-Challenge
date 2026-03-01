@@ -1,0 +1,22 @@
+[
+    {
+        "task": "Workout",
+        "status": "Pending",
+        "priority": "High"
+    },
+    {
+        "task": "Coding",
+        "status": "Pending",
+        "priority": "Low"
+    },
+    {
+        "task": "Study",
+        "status": "Pending",
+        "priority": "Low"
+    },
+    {
+        "task": "Chores",
+        "status": "Pending",
+        "priority": "High"
+    }
+]
