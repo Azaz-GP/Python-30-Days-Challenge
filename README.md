@@ -25,6 +25,7 @@ This challenge documents my journey from beginner to building structured, real-w
 | 09 | [Shopping List Manager](#day-9--shopping-list-manager) | File Handling, CRUD Operations, Menu Logic, Input Validation |
 | 10 | [Student Marks Analyzer (JSON)](#day-10--student-marks-analyzer-json) | JSON Handling, File I/O, CRUD, Input Validation, Pass/Fail Logic |
 | 11 | [Password Manager (JSON)](#day-11--password-manager-json) | JSON Storage, Modular Programming, CRUD Operations, Search Functionality |
+| 12 | [ToDo List Manager (JSON)](#day-12--todo-list-manager-json) | Modular Programming, JSON Storage, CRUD, Task Priority, Summary Analytics |
 ---
 
 ## 📂 Repository Structure
@@ -57,6 +58,12 @@ This challenge documents my journey from beginner to building structured, real-w
     │   ├── manager.py
     │   ├── database.py
     │   └── Password.json
+    ├── Day_12_ToDo_List_Manager(JSON)/
+    │   ├── main.py
+    │   ├── functions.py
+    │   ├── summary.py
+    │   ├── database.py
+    │   └── data.json
     |── README.md
 
 ---
@@ -296,6 +303,37 @@ Learned advanced Python project structuring including:
 - Full CRUD operations implementation
 - Search functionality with string matching
 - Separation of concerns (database, logic, interface)
+- Professional menu-driven program design
+
+---
+
+## Day 12 — ToDo List Manager (JSON)
+
+A modular task management system with priority tracking, completion status, search functionality, and summary analytics using JSON storage.
+
+### 🔹 Features
+
+- Add new tasks with priority levels
+- View all tasks with status and priority
+- Mark tasks as complete
+- Edit existing tasks
+- Delete tasks
+- Search tasks by title
+- View pending tasks
+- View high-priority pending tasks
+- Display full task summary (total, completed, pending)
+- Persistent storage using JSON
+
+### 🧠 Key Learning
+
+Developed deeper understanding of:
+
+- Modular multi-file Python architecture
+- JSON-based persistent data systems
+- Full CRUD operations
+- Task state management (Pending / Complete)
+- Priority-based filtering logic
+- Analytical summary generation
 - Professional menu-driven program design
 ---
 
