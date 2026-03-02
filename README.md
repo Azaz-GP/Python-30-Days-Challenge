@@ -26,7 +26,9 @@ This challenge documents my journey from beginner to building structured, real-w
 | 10 | [Student Marks Analyzer (JSON)](#day-10--student-marks-analyzer-json) | JSON Handling, File I/O, CRUD, Input Validation, Pass/Fail Logic |
 | 11 | [Password Manager (JSON)](#day-11--password-manager-json) | JSON Storage, Modular Programming, CRUD Operations, Search Functionality |
 | 12 | [ToDo List Manager (JSON)](#day-12--todo-list-manager-json) | Modular Programming, JSON Storage, CRUD, Task Priority, Summary Analytics |
+| 13 | [Bank Account System (OOP)](#day-13--bank-account-system-oop) | Classes, Objects, Encapsulation, Class Methods, Static Methods, OOP Design |
 ---
+
 
 ## 📂 Repository Structure
 
@@ -64,6 +66,8 @@ This challenge documents my journey from beginner to building structured, real-w
     │   ├── summary.py
     │   ├── database.py
     │   └── data.json
+    ├── Day_13_Bank_Account_OOP/
+    │   └── bank_account.py
     |── README.md
 
 ---
@@ -335,6 +339,35 @@ Developed deeper understanding of:
 - Priority-based filtering logic
 - Analytical summary generation
 - Professional menu-driven program design
+
+---
+
+## Day 13 — Bank Account System (OOP)
+
+A secure banking system simulation built using Object-Oriented Programming principles including encapsulation, class variables, instance methods, and account transfers.
+
+### 🔹 Features
+
+- Create bank accounts with unique account numbers
+- Deposit and withdraw money securely
+- Transfer funds between accounts
+- Encapsulated balance protection using private variables
+- Track total number of accounts using class variables
+- Change bank name using class methods
+- Static method for bank system information
+- Custom string representation for account details
+
+### 🧠 Key Learning
+
+Mastered core Object-Oriented Programming concepts:
+
+- Classes and objects
+- Encapsulation using private variables (`__balance`)
+- Instance methods and object interaction
+- Class variables and class methods
+- Static methods
+- Special methods (`__init__`, `__str__`, `__del__`)
+- Secure and structured program design
 ---
 
 # 🏁 Final Target (Day 30)
