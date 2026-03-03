@@ -74,4 +74,3 @@ def avg_steps():
     total_steps = sum(details["steps"] for details in data)
     avg = total_steps / len(data)
     print(f"Average Steps: {avg:.2f}\n")
-
