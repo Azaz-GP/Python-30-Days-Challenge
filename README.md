@@ -27,6 +27,7 @@ This challenge documents my journey from beginner to building structured, real-w
 | 11 | [Password Manager (JSON)](#day-11--password-manager-json) | JSON Storage, Modular Programming, CRUD Operations, Search Functionality |
 | 12 | [ToDo List Manager (JSON)](#day-12--todo-list-manager-json) | Modular Programming, JSON Storage, CRUD, Task Priority, Summary Analytics |
 | 13 | [Bank Account System (OOP)](#day-13--bank-account-system-oop) | Classes, Objects, Encapsulation, Class Methods, Static Methods, OOP Design |
+| 15 | [Library Management System (OOP + JSON)](#day-15--library-management-system-oop--json) | OOP Design, JSON Persistence, Class Architecture, Borrow/Return Logic |
 ---
 
 
@@ -68,6 +69,12 @@ This challenge documents my journey from beginner to building structured, real-w
     │   └── data.json
     ├── Day_13_Bank_Account_OOP/
     │   └── bank_account.py
+    ├── Day_15_Library_Management_System/
+    │   ├── main.py
+    │   ├── functions.py
+    │   ├── details.py
+    │   ├── database.py
+    │   └── data.json
     |── README.md
 
 ---
@@ -368,6 +375,35 @@ Mastered core Object-Oriented Programming concepts:
 - Static methods
 - Special methods (`__init__`, `__str__`, `__del__`)
 - Secure and structured program design
+
+---
+
+## Day 15 — Library Management System (OOP + JSON)
+
+A complete school library management system built using Object-Oriented Programming and JSON-based persistent storage.
+
+### 🔹 Features
+
+- Add new books
+- Register library members
+- Borrow books with availability validation
+- Return borrowed books
+- Track book availability status
+- Track member borrowed book history
+- Persistent storage using JSON
+- Modular multi-file architecture
+
+### 🧠 Key Learning
+
+Deepened understanding of:
+
+- Object-Oriented system design
+- Class composition (Book, Member, Library)
+- JSON serialization and deserialization
+- Converting objects to/from dictionaries
+- Borrow/return workflow logic
+- State management using class instances
+- Professional modular architecture
 ---
 
 # 🏁 Final Target (Day 30)
